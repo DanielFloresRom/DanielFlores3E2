@@ -1,0 +1,22 @@
+<img class="imagen" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTEyLjYgMTJMOCA3LjRMOS40IDZsNiA2bC02IDZMOCAxNi42eiIvPjwvc3ZnPg==" alt="back" (click)="alternateVisibility()">
+<section class="sidemenu-container"
+[style.background-color]="theme"
+[style.width]="widthMenu+'%'"
+[style.display]="visibleMenu?'flex':'none'">
+    <div class="item">
+        <img src="https://lh3.googleusercontent.com/a/ACg8ocIqjow1O6i3evG0hve72fItS17yPhSZ7J6tnSCrKn1kkowS1AOU=s96-c-rg-br100" alt="">
+        <p class="letras">{{userName}}</p>
+       <img class="imagen" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTcuODI1IDEzbDUuNiA1LjZMMTIgMjBsLTgtOGw4LThsMS40MjUgMS40bC01LjYgNS42SDIwdjJ6Ii8+PC9zdmc+" alt="back" (click)="alternateVisibility()">
+    </div>
+    <div class="item">
+        <p class="letras"><span>😊</span>Profile</p>
+    </div>
+    <div class="item">
+        <p class="letras"><span>📆</span>Dashboard</p>
+    </div>
+    <div class="item">
+        <button class="btn" (click)="toggleTheme()">Change Color</button>
+        <button class="btn" (click)="setSize()">Change Size</button>
+    </div>
+</section>
+
